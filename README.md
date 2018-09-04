@@ -23,7 +23,7 @@
   - Penalty term makes actor to perform better ( exploitation )
   - For example, consider a **Markov decision process** which consists of 2 states and 2 actions  
     <center>
-    <img src="figures/MDP_2S2A_2MC.png" width="30%" height="30%" />
+    <img src="figures/MDP_2S2A_2MC.PNG" width="30%" height="30%" />
     </center>
   - **Action-gating mechanism** is applied to model-based module to learn the **latent variables** corresponding to **transition** of **different action**
   
@@ -42,7 +42,7 @@
 ## **Results**
 - **Cart Pole**
 
-  <img src="figures/Cart_pole.png" width="50%" height="50%" />
+  <img src="figures/Cart_pole.PNG" width="50%" height="50%" />
   
   - Total extrinsic reward curve
     - Extrinsic reward 1 is given until termination 
@@ -73,9 +73,9 @@
     
   - Latent features 
   
-    <img src="figures/Grid_world_1_With_Action_Gating.png" width="30%" height="30%" /> <img src="figures/Grid_world_1_Without_Action_Gating.png![]" width="30%" height="30%" />
+    <img src="figures/Grid_world_1_With_Action_Gating.png" width="30%" height="30%" /> <img src="figures/Grid_world_1_Without_Action_Gating.png" width="30%" height="30%" />
     
-    <img src="figures/Grid_world_2_With_Action_Gating.png![]" width="30%" height="30%" /> <img src="figures/Grid_world_2_Without_Action_Gating.png" width="30%" height="30%" />
+    <img src="figures/Grid_world_2_With_Action_Gating.png" width="30%" height="30%" /> <img src="figures/Grid_world_2_Without_Action_Gating.png" width="30%" height="30%" />
 
 
 - **Tracking MNIST**
